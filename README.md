@@ -2,7 +2,7 @@
 directory size layout thing...
 
 
-install
+To install it open a terminal window
 
 git clone https://github.com/remotefixonline/lindirsize.git
 
@@ -11,3 +11,11 @@ chmod +x lindirsize
 cp lindirsize /usr/bin/
 
 then in any directory just type lindirsize to get a size breakdown.
+
+##if  you get an error when you run "git clone"
+##ubuntu
+apt-get install git
+##centos 
+yum install git
+##fedora
+dnf install git
